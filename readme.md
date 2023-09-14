@@ -43,3 +43,6 @@ $ cd simple_dj_docker
 $ touch Dockerfile
 $ ls
 Dockerfile
+
+2. Build your Docker Image
+docker build -t simple_django_docker -f Dockerfile .
